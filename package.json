@@ -7,7 +7,7 @@
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
-    "build-gh": "parcel build --public-url 'https://{manucmadhu}.github.io/{jsfolio}'",
+    "build-gh": "parcel build --public-url 'https://manucmadhu.github.io/jsfolio'",
     "predeploy": "npm run build-gh",
     "deploy": "gh-pages -d dist"
   },
